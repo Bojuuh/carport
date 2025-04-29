@@ -12,11 +12,13 @@ Object Plank
 Object Lath
 Object Fitting
 Object Screw
-Object Basket
 Object Carport
+Object Calculator
+Object PartsList
 
 User --* Order
 Order --* Carport
+Order --* PartsList
 Carport --* Part
 Part --|> Rafter
 Part --|> Rooftile
