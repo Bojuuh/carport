@@ -13,9 +13,11 @@ Object Lath
 Object Fitting
 Object Screw
 Object Basket
+Object Carport
 
 User --* Order
-Order --* Part
+Order --* Carport
+Carport --* Part
 Part --|> Rafter
 Part --|> Rooftile
 Part --|> Post
